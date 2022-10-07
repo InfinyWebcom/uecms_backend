@@ -1,0 +1,120 @@
+.error{
+    color: #ff4081;
+    font-size: .8rem;
+}
+
+.linkText {
+	font-weight: 500;
+	color: #8e24aa;
+}
+
+.dataTables_filter {
+    float: left !important;
+    margin-top: -25px;
+}
+
+table, thead th, .dataTables_filter label{
+	color: black !important;
+}
+
+#main .section-data-tables .dataTables_wrapper .dataTables_paginate .paginate_button.current, #main .section-data-tables .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover, #main .section-data-tables .dataTables_wrapper #page-length-option_paginate .paginate_button.current, #main .section-data-tables .dataTables_wrapper #page-length-option_paginate .paginate_button.current:hover {
+    color: #fff !important;
+    border: 1px solid #ff6e40 !important;
+    border-radius: 6px;
+    background: linear-gradient(45deg, #8e24aa, #ff6e40) !important;
+    box-shadow: 0 0 4px 0 #8e24aa !important;
+}
+
+#main .section-data-tables .dataTables_wrapper .dataTables_paginate .paginate_button:hover, #main .section-data-tables .dataTables_wrapper #page-length-option_paginate .paginate_button:hover {
+    color: #fff !important;
+    border: 1px solid #ff6e40 !important;
+    border-radius: 6px;
+    background: linear-gradient(45deg, #8e24aa, #ff6e40) !important;
+    box-shadow: 0 0 8px 0 #8e24aa !important;
+}
+
+.swal-button {
+  	background: linear-gradient(45deg, #8e24aa, #ff6e40) !important;
+}
+
+.swal-button--cancel {
+	background: #ccc !important;
+}
+
+.smallBtn {
+	line-height: 28px; 
+    height: 28px; 
+    padding: 0 1rem;
+    font-size: 12px;
+}
+
+.mediumBtn {
+	line-height: 32px; 
+    height: 32px; 
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.tableTopBtn {
+	margin-left: 10px;
+	margin-bottom: -32px !important;
+	float: right;
+    margin-top: 10px; 
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) {
+	border-bottom: 1px solid #ff6e40 !important;
+    box-shadow: 0 1px 0 0 #ff6e40 !important;
+}
+
+button, input, optgroup, select, textarea {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.highlightedText {
+    font-weight: 500;
+    background: -webkit-linear-gradient(45deg, #8e24aa, #ff6e40);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.highlightedText a {
+    background: -webkit-linear-gradient(45deg, #0288d1, #26c6da);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.breadcrumbs-title span {
+    line-height: 30px;
+}
+
+#main .section-data-tables .dataTables_wrapper table.dataTable tbody th, #main .section-data-tables .dataTables_wrapper table.dataTable tbody td {
+        white-space: normal !important;
+}
+
+.btnDDOption{
+    font-size: 12px !important;
+}
+
+.smallIcnBtn {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.smallIcnBtn i {
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.fc-button {
+    background: #8e24aa !important;
+    border: none;   
+}
+
+.dropdown-content {
+    top: 55px !important;
+    width: auto !important;
+    max-height: 200px !important;
+}
